@@ -16,6 +16,12 @@ For the project to run, a Database needs to be available with the structure spec
 
 Ideally the database information needs to be configurable either as environment variables or in a properties file.
 
+## How to start the Shipment application
+
+ 1. Clone this repository `git clone https://github.com/tariqfarahteh/QExpressProj.git`
+ 2. Run `mvn clean install tomcat7:run` to build and start the application
+ 3. To check that your application is running enter url <http://localhost:9090>
+
 # DB Structure:
 
 A shipment contains header and details Tables
