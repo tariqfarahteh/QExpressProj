@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:34:51 +0200] "GET /rest/utilities?tableName=ShipmentH HTTP/1.1" 200 13 http-bio-9090-exec-2 751
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:34:51 +0200] "GET /rest/facilities HTTP/1.1" 200 213 http-bio-9090-exec-1 755
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:34:51 +0200] "GET /rest/shipments?facilityId=-1&pageNumber=1 HTTP/1.1" 200 2654 http-bio-9090-exec-3 39
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:35:03 +0200] "GET /rest/shipments?facilityId=1&pageNumber=1 HTTP/1.1" 200 944 http-bio-9090-exec-5 7
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:35:05 +0200] "GET /rest/shipments?facilityId=2&pageNumber=1 HTTP/1.1" 200 16663 http-bio-9090-exec-6 18
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:35:07 +0200] "GET /rest/shipments?facilityId=3&pageNumber=1 HTTP/1.1" 200 12 http-bio-9090-exec-7 4
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:35:10 +0200] "GET /rest/shipments?facilityId=-1&pageNumber=1 HTTP/1.1" 200 2654 http-bio-9090-exec-8 6
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:35:14 +0200] "GET /rest/sellers HTTP/1.1" 200 187 http-bio-9090-exec-9 6
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:35:17 +0200] "GET /rest/buyers HTTP/1.1" 200 280 http-bio-9090-exec-9 5
+0:0:0:0:0:0:0:1 - - [24/Jan/2018:22:35:26 +0200] "GET /rest/utilities?tableName=%22buyer%22 HTTP/1.1" 200 13 http-bio-9090-exec-9 3
