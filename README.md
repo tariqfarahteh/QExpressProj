@@ -8,6 +8,11 @@ We used in this solution a RESTfull API  to:
  3. Filter Shipments per the from facility
 
 # Prerequisites
+
+ 1. Oracle Java JDK 1.8
+ 2. MySQL 5.6
+ 3. Maven 3.5
+ 
 For the project to run, a Database needs to be available with the structure specified in shipment_db.sql, due to time constraints the database needs to be with the following DB information:
 
 > JDBC URL: jdbc:mysql://localhost:3306/Shipment_DB

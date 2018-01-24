@@ -7,9 +7,9 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 public class ConnectionManager {
 
 	// TODO move to properties file
-	private static final String URL = "jdbc:mysql://localhost:3306/Shipment_DB2";
+	private static final String URL = "jdbc:mysql://localhost:3306/Shipment_DB";
 	private static final String USER = "root";
-	private static final String PASS = "";
+	private static final String PASS = "root";
 
 	private ComboPooledDataSource dataSource;
 	private static ConnectionManager instance = new ConnectionManager();
